@@ -1,0 +1,32 @@
+{
+    "de":{
+        "title": "Wing & Moritz",
+        "subtitle": "wir heiraten",
+        "quote": "Wenn man so will bist du das Ziel einer langen Reise - die Perfektion der besten Art und Weise",
+        "quoteAuthor": "Sportfreunde Stiller",
+        "invitation": "Einladung zur Hochzeitsfeier",
+        "weddingDay": 20,
+        "weddingMonth": "Juli",
+        "weddingYear": 2024,
+        "greetingFemale": "Liebe",
+        "greetingMale": "Lieber",
+        "rsvp": "RSVP",
+        "paragraphOne": "an Tagen wie diesen wünschen wir uns Familie und Freunde herbei! Zur freien Trauung um 14:00 Uhr und zur anschließenden Feier am <a target='_blank' href='https://maps.app.goo.gl/g4DM2ydMx6ZrEJF5A'>Bootshaus vom Waldhaus Deininger Weiher</a> laden wir dich ganz herzlich ein.",
+        "paragraphTwo": "Wir freuen uns auf einen unvergesslichen Tag mit dir und hoffen auf eine Zusage bis zum 20/10/2023."
+    },
+    "en":{
+        "title": "Wing & Moritz",
+        "subtitle": "we are getting married",
+        "quote": "If you knew how I wanted someone to come along and change my life the way you've done",
+        "quoteAuthor": "Chantal Kreviazuk",
+        "invitation": "Wedding Invitation",
+        "weddingDay": 20,
+        "weddingMonth": "July",
+        "weddingYear": 2024,
+        "greetingFemale": "Dear",
+        "greetingMale": "Dear",
+        "rsvp": "RSVP",
+        "paragraphOne": "on that day we wish to have our closest family and friends to join our celebration of love! We invite you to the ceremony at 2pm and to the after-party at <a target='_blank' href='https://maps.app.goo.gl/g4DM2ydMx6ZrEJF5A'>Bootshaus Waldhaus Deininger Weiher</a>.",
+        "paragraphTwo": "We are super excited to spend a fantastic day with you and we hope to hear from you until 20/10/2023."
+    }
+}
