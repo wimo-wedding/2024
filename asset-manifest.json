@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/2024/static/css/main.ee3601ed.css",
+    "main.js": "/2024/static/js/main.a039158a.js",
+    "static/js/787.10718235.chunk.js": "/2024/static/js/787.10718235.chunk.js",
+    "static/media/background.jpg": "/2024/static/media/background.10354a352a1d30f28bf2.jpg",
+    "static/media/invitation-background.jpg": "/2024/static/media/invitation-background.2fa4861919586ec79bda.jpg",
+    "static/media/wimo-alt.jpg": "/2024/static/media/wimo-alt.ec9c4f42caef9728871a.jpg",
+    "static/media/404.jpg": "/2024/static/media/404.7f513cf638159223391f.jpg",
+    "static/media/DancingScript.ttf": "/2024/static/media/DancingScript.3e7e73f4e34e4945f363.ttf",
+    "static/media/CutiveMono-Regular.ttf": "/2024/static/media/CutiveMono-Regular.0ca4da0b0a4342cac8d3.ttf",
+    "static/media/DancingScript.woff": "/2024/static/media/DancingScript.dc97d21dd0a41f516253.woff",
+    "static/media/JuliusSansOne-Regular.ttf": "/2024/static/media/JuliusSansOne-Regular.2de04709e76a8c3a838d.ttf",
+    "static/media/CutiveMono-Regular.woff": "/2024/static/media/CutiveMono-Regular.5cdd0fe681531764a629.woff",
+    "static/media/JuliusSansOne-Regular.woff": "/2024/static/media/JuliusSansOne-Regular.f3826d850793e029304b.woff",
+    "index.html": "/2024/index.html",
+    "main.ee3601ed.css.map": "/2024/static/css/main.ee3601ed.css.map",
+    "main.a039158a.js.map": "/2024/static/js/main.a039158a.js.map",
+    "787.10718235.chunk.js.map": "/2024/static/js/787.10718235.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee3601ed.css",
+    "static/js/main.a039158a.js"
+  ]
+}
