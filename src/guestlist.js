@@ -93,7 +93,21 @@ const guestlist = [
         name: "wai-kin",
         gender: "male",
         locale: "de"
-    }  
+    },
+    {
+      name: "johanna",
+      members: [
+        {
+          name: "Johanna",
+          gender: "female",
+        },
+        {
+          name: "Harald",
+          gender: "male",
+        },
+      ],
+      locale: "de",
+    },
 ]
 
 export default guestlist

@@ -98,7 +98,7 @@ function InvitePage() {
 
 
 function InvitationContent(guest) {
-  const { name, locale, gender } = guest
+  const { name, locale, gender, members } = guest
   return <>
     <div class="invitation-outer">
       <div class="invitation-inner"></div>
@@ -120,8 +120,10 @@ function InvitationContent(guest) {
         </div>
       </div>
       <div class="guest-name">
-        <span class="greeting">{gender === 'female' ? t[locale].greetingFemale : t[locale].greetingMale}</span>
-        <div class="caligraphy">{name},</div>
+        {members
+          ? members.map(member => <Greeting name={member.name} gender={member.gender} locale={locale}/>)
+          : <Greeting name={name} gener={gender} locale={locale}/>
+        }
       </div>
       <div class="description">
         <p dangerouslySetInnerHTML={{ __html: t[locale].paragraphOne }} />
@@ -141,5 +143,13 @@ function InvitationContent(guest) {
     </div>
   </>
 }
+
+const Greeting = ({name, gender, locale}) =>
+  <>
+    <span class="greeting">
+      {gender === 'female' ? t[locale].greetingFemale : t[locale].greetingMale}
+    </span>
+    <div class="caligraphy">{name},</div>
+  </>
 
 export default App;
