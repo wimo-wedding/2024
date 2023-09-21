@@ -121,8 +121,10 @@ function InvitationContent(guest) {
       </div>
       <div class="guest-name">
         {members
-          ? members.map(member => <Greeting name={member.name} gender={member.gender} locale={locale}/>)
-          : <Greeting name={name} gener={gender} locale={locale}/>
+          ? members.map((member,index) =>
+              <Salutation name={member.name} gender={member.gender} locale={locale} isLast={index === members.length - 1} />
+            )
+          : <Salutation name={name} gender={gender} locale={locale} />
         }
       </div>
       <div class="description">
@@ -144,12 +146,12 @@ function InvitationContent(guest) {
   </>
 }
 
-const Greeting = ({name, gender, locale}) =>
-  <>
+const Salutation = ({name, gender, locale, isLast}) =>
+  <div className="salutation">
     <span class="greeting">
       {gender === 'female' ? t[locale].greetingFemale : t[locale].greetingMale}
     </span>
-    <div class="caligraphy">{name},</div>
-  </>
+    <div class="caligraphy">{name}{!isLast && ','}</div>
+  </div>
 
 export default App;

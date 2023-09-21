@@ -241,6 +241,14 @@ a {
   padding-top: 80px;
   margin-left: 40px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.salutation {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
 }
 
 .greeting {
@@ -252,8 +260,6 @@ a {
 .caligraphy {
   font-family: 'Dancing', Arial, Helvetica, sans-serif, sans-serif;
   font-size: 42px;
-  margin-left: 10px;
-  margin-right: 10px;
   margin-top: -20px;
   text-transform: capitalize;
 }
