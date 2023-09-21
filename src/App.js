@@ -2,12 +2,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   useRouteMatch,
-  useParams
 } from "react-router-dom";
-import logo from './logo.svg';
-import background from './background.jpg';
 import rings from './rings.png';
 import './App.css';
 import guestlist from "./guestlist";
