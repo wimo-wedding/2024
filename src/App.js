@@ -129,12 +129,12 @@ function InvitationContent(guest) {
 
         <div class="footer-wrapper">
           <div class="footer">
+            <div class="rsvp shadow"><a href={t[locale].rsvpLink}>{t[locale].rsvp}</a></div>
             <div class="from">
               {t[locale].title}
             </div>
             <div class="wimo shadow">
             </div>
-            <div class="rsvp shadow"><a href={t[locale].rsvpLink}>{t[locale].rsvp}</a></div>
           </div>
         </div>
       </div>
