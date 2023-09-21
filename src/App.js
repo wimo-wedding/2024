@@ -124,8 +124,8 @@ function InvitationContent(guest) {
         }
       </div>
       <div class="description">
-        <p dangerouslySetInnerHTML={{ __html: t[locale].paragraphOne }} />
-        <p>{t[locale].paragraphTwo}</p>
+        <p dangerouslySetInnerHTML={{ __html: pluralize(t[locale].paragraphOne, 'Dich', 'Euch', members) }} />
+        <p>{pluralize(t[locale].paragraphTwo, 'Dir', 'Euch', members)}</p>
 
         <div class="footer-wrapper">
           <div class="footer">
@@ -149,5 +149,8 @@ const Salutation = ({name, gender, locale}) =>
     </span>
     <div class="caligraphy">{name},</div>
   </div>
+
+const pluralize = (text, singular, plural, usePluralize) =>
+  text.replace('XXX', usePluralize ? plural : singular)
 
 export default App;
