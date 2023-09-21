@@ -57,23 +57,26 @@
 body {
   font-family: 'Julius', Arial, Helvetica, sans-serif, sans-serif;
   color: #4e4e4e;
-  @media(min-width: 768px) {
+}
+
+@media(min-width: 768px) {
+  body {
     background-color: #f5f5f5;
   }
 }
 
-.App {
-  @media(min-width: 768px){
+@media(min-width: 768px) {
+  .App {
     max-width: 540px;
     padding-top: 80px;
     margin: auto;
   }
 }
 
-.background-lg-screens {
-  @media(min-width: 768px){
+@media(min-width: 768px) {
+  .background-lg-screens {
     background-image: url('/src/background.jpg');
-    background-size:  530px auto;
+    background-size: 530px auto;
     background-repeat: no-repeat;
     background-position-x: 12%;
   }
@@ -85,8 +88,10 @@ body {
 
 .logo {
   width: 100%;
+}
 
-  @media(min-width: 760px) {
+@media(min-width: 760px) {
+  .logo {
     width: 600px;
     margin-left: 40px;
   }
@@ -166,8 +171,8 @@ a {
   background-color: #f5f5f5;
 }
 
-.invitation-inner {
-  @media(min-width: 768px) {
+@media(min-width: 768px) {
+  .invitation-inner {
     background-color: transparent;
   }
 }
