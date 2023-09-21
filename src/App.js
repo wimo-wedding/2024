@@ -134,7 +134,7 @@ function InvitationContent(guest) {
             </div>
             <div class="wimo shadow">
             </div>
-            <div class="rsvp shadow">{t[locale].rsvp}</div>
+            <div class="rsvp shadow"><a href={t[locale].rsvpLink}>{t[locale].rsvp}</a></div>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@ const Salutation = ({name, gender, locale, isLast}) =>
     <span class="greeting">
       {gender === 'female' ? t[locale].greetingFemale : t[locale].greetingMale}
     </span>
-    <div class="caligraphy">{name}{!isLast && ','}</div>
+    <div class="caligraphy">{name},</div>
   </div>
 
 export default App;
