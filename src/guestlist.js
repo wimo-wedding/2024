@@ -148,9 +148,18 @@ const guestlist = [
       locale: "de",
       noForm: true,
   },
-   {
-      name: "Michael",
-      gender: "male",
+  {
+      name: "michael-und-ana",
+      members: [
+        {
+          name: "Ana",
+          gender: "female",
+        },
+        {
+          name: "Michael",
+          gender: "male",
+        },
+      ],
       locale: "de",
   }, 
   {
