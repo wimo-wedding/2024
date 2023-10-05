@@ -24,6 +24,11 @@ const guestlist = [
         locale: "de"
     },
     {
+        name: "Fabienne",
+        gender: "female",
+        locale: "de"
+    },
+    {
         name: "Carina",
         gender: "female",
         locale: "de"
